@@ -1,5 +1,7 @@
 # tsconfig
 
+> Initially forked from https://github.com/sindresorhus/tsconfig
+
 > Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects
 
 ## Install
