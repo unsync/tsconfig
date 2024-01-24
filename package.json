@@ -1,0 +1,21 @@
+{
+	"name": "@unsync/tsconfig",
+	"version": "1.0.1",
+	"description": "Shared TypeScript config for my projects",
+	"license": "MIT",
+	"repository": "unsync/tsconfig",
+	"main": "tsconfig.json",
+	"engines": {
+		"node": ">=18"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	]
+}
