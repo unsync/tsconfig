@@ -28,7 +28,6 @@
 		"noEmitOnError": true,
 		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
-		"suppressImplicitAnyIndexErrors": true,
 		"skipLibCheck": true
 	}
 }
