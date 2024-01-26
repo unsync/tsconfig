@@ -8,6 +8,11 @@
 	"engines": {
 		"node": ">=18"
 	},
+	"scripts": {
+		"release:patch": "npm version -m 'release:patch' patch",
+		"release:minor": "npm version -m 'release:minor' minor",
+		"release:major": "npm version -m 'release:major' major"
+	},
 	"files": [
 		"tsconfig.json"
 	],

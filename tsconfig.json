@@ -25,7 +25,8 @@
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedIndexedAccess": true,
 		"noPropertyAccessFromIndexSignature": false,
-		"noEmitOnError": true,
+		// having this to true can cause issues with ts-jest https://github.com/kulshekhar/ts-jest/issues/4246
+		"noEmitOnError": false,
 		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
 		"skipLibCheck": true
