@@ -11,10 +11,12 @@
 	"scripts": {
 		"release:patch": "npm version -m 'release:patch' patch",
 		"release:minor": "npm version -m 'release:minor' minor",
-		"release:major": "npm version -m 'release:major' major"
+		"release:major": "npm version -m 'release:major' major",
+		"postinstall": "node scripts/postinstall.cjs"
 	},
 	"files": [
-		"tsconfig.json"
+		"tsconfig.json",
+		"scripts/postinstall.cjs"
 	],
 	"keywords": [
 		"tsconfig",
