@@ -1,6 +1,6 @@
 {
 	"name": "@unsync/tsconfig",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"description": "Shared TypeScript config for my projects",
 	"license": "MIT",
 	"repository": "unsync/tsconfig",
