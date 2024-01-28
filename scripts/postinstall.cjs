@@ -21,7 +21,8 @@ if(!fs.existsSync(tsConfigPath)) {
 		"extends": "@unsync/tsconfig",
 		"compilerOptions": {
 			"outDir": "dist"
-		}
+		},
+		"include": ["./src/**/*"]
 	}
 	console.info('postinstall: create tsconfig.json')
 	fs.writeFileSync(tsConfigPath, JSON.stringify(config, null, 2))
