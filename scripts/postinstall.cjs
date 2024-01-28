@@ -9,7 +9,7 @@ if(fs.existsSync(packageJsonPath)) {
     const packageJson = JSON.parse(fs.readFileSync(packageJsonPath))
 
 	if(!packageJson.scripts['build']) {
-		packageJson.scripts['build'] = 'tsc'
+		packageJson.scripts['build'] = 'rm -Rf dist && tsc'
 		fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2))
 	}
 }
